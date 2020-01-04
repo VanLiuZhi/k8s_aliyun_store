@@ -14,7 +14,7 @@ ENV PYTHONPATH "${PYTHONPATH}:/usr/lib/python2.7/site-packages/"
 WORKDIR $workdir
 ADD ./ ./
 RUN pip install \
-    Flask==0.10.1 \
+    Flask \
     Flask-Babel==0.9 \
     Jinja2==2.7.2 \
     Werkzeug==0.9.4 \
@@ -23,3 +23,5 @@ RUN pip install \
     requests==2.3.0
 
 ENTRYPOINT ["/bin/sh", "-c"]
+
+
