@@ -1,1 +1,1 @@
-From redis:4-alpine3.8
+From redis:5.0.7-buster
