@@ -1,1 +1,1 @@
-FROM sheepkiller/kafka-manager
+FROM sheepkiller/kafka-manager:latest
